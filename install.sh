@@ -40,7 +40,7 @@ volumes:
 
 EOF
 
-cat><<EOF
+cat>Caddyfile<<EOF
 {$DOMAIN} {
     tls {$EMAIL}
  
